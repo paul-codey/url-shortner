@@ -137,9 +137,12 @@ nav {
 }
 
 .shortening-box {
-  padding: 55rem;
-  background-image: url("/images/bg-boost-desktop.svg");
+  padding: 6rem;
+  background-image: url("/images/bg-shorten-desktop.svg");
   background-size: cover;
+  background-position: size;
+  width: 100%;
+  background-color: var(--clr-primary-2);
 }
 
 .features {
