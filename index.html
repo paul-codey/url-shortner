@@ -1,120 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>HTML</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Custom Styles -->
-    <link rel="stylesheet" href="style.css" />
-    <script defer src="main.js"></script>
-  </head>
+  <title>HTML</title>
 
-  <body>
-    <header class="header flex container center">
-      <a class="header__logo" href=""
-        ><img src="/images/logo.svg" alt="logo"
-      /></a>
-      <nav class="header__nav">
-        <ul class="header__nav-links flex">
-          <li><a class="header__nav-link" href="#">Features</a></li>
-          <li><a class="header__nav-link" href="#">Pricing</a></li>
-          <li><a class="header__nav-link" href="#">Resources</a></li>
-        </ul>
-      </nav>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="main.js"></script>
+</head>
 
-      <div class="flex header__auths-buttons">
-        <button class="btn header__auths-buttons-login">Login</button>
-        <button class="btn-signup header__auths-buttons-signup">Sign up</button>
+<body>
+  <header class="header flex container center">
+    <a class="header__logo" href=""><img src="/images/logo.svg" alt="logo" /></a>
+    <nav class="header__nav">
+      <ul class="header__nav-links flex">
+        <li><a class="header__nav-link" href="#">Features</a></li>
+        <li><a class="header__nav-link" href="#">Pricing</a></li>
+        <li><a class="header__nav-link" href="#">Resources</a></li>
+      </ul>
+    </nav>
+
+    <div class="flex header__auths-buttons">
+      <button class="btn header__auths-buttons-login">Login</button>
+      <button class="btn-signup header__auths-buttons-signup">Sign up</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-hero">
+      <div class="hero center container flex">
+        <div class="hero__text-box">
+          <h1 class="hero-main-heading">More than just shorter links</h1>
+          <p class="hero__description">
+            Build your brand’s recognition and get detailed insights on how
+            your links are performing.
+          </p>
+          <button class="btn-signup btn-hero">Get started</button>
+        </div>
+        <div class="hero__image-box">
+          <img src="images/illustration-working.svg" alt="" class="hero__image" />
+        </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section class="section-hero">
-        <div class="hero center container flex">
-          <div class="hero__text-box">
-            <h1 class="hero-main-heading">More than just shorter links</h1>
-            <p class="hero__description">
-              Build your brand’s recognition and get detailed insights on how
-              your links are performing.
-            </p>
-            <button class="btn-signup btn-hero">Get started</button>
-          </div>
-          <div class="hero__image-box">
-            <img
-              src="images/illustration-working.svg"
-              alt=""
-              class="hero__image"
-            />
-          </div>
+    <section class="section-feautures">
+      <div class="features center container flex">
+        <div class="features__heading flex">
+          <h2>Advanced Statistics</h2>
+          <p class="features__description">
+            Track how your links are performing across the web with our advanced statistics dashboard.
+          </p>
         </div>
-      </section>
 
-      <section class="section-feautures">
-        <div class="features center container flex">
-          <div class="features__heading flex">
-            <h2>Advanced Statistics</h2>
-            <p class="features__description">
-              ufrur jurur juruur juurur jufuheu uiuuuuhu4 buuureuru
-              uijuruerieileihbhj jirrh9rh4 jiirhr ir89i9rnbehfefj juhehuefue
-              uheueurer
+        <div class="features__box flex">
+          <div class="feature">
+            <div class="feature__img">
+              <img src="/images/icon-brand-recognition.svg" alt="brand recognition icon" class="feature-icon" />
+            </div>
+
+            <h3 class="feature__title">Brand Recognition</h3>
+            <p class="feature__description">
+              Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil confidence in your content.
             </p>
           </div>
-
-          <div class="features__box flex">
-            <div class="feature">
-              <div class="feature__img">
-                <img
-                  src="/images/icon-brand-recognition.svg"
-                  alt="brand recognition icon"
-                  class="feature-icon"
-                />
-              </div>
-
-              <h3 class="feature__title">Brand Recognition</h3>
-              <p class="feature__description">
-                hhbbfh hhdhhd hhdhhd jdhhdhhd hhdhhdh hhdhhd hdhhd uduudb hhdhhd
-                uuudhhdh dhhdh hhdhhd hhdhhdh hhdhhdh hdh dhhhdhhdh hhdhdhh
-                dhhdhhdhh hhdhhdhh hhdhhdh hhdhhdhhh hhdhdhdh
-              </p>
+          <div class="feature">
+            <div class="feature__img">
+              <img src="/images/icon-brand-recognition.svg" alt="brand recognition icon" class="feature-icon" />
             </div>
-            <div class="feature">
-              <div class="feature__img">
-                <img
-                  src="/images/icon-brand-recognition.svg"
-                  alt="brand recognition icon"
-                  class="feature-icon"
-                />
-              </div>
 
-              <h3 class="feature__title">Brand Recognition</h3>
-              <p class="feature__description">
-                hhbbfh hhdhhd hhdhhd jdhhdhhd hhdhhdh hhdhhd hdhhd uduudb hhdhhd
-                uuudhhdh dhhdh hhdhhd hhdhhdh hhdhhdh hdh dhhhdhhdh hhdhdhh
-                dhhdhhdhh hhdhhdhh hhdhhdh hhdhhdhhh hhdhdhdh
-              </p>
+            <h3 class="feature__title">Brand Recognition</h3>
+            <p class="feature__description">
+              Gain insights into who is clicking your links. Knowing when and where people engage with your content helps inform better decisions.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature__img">
+              <img src="/images/icon-brand-recognition.svg" alt="brand recognition icon" class="feature-icon" />
             </div>
-            <div class="feature">
-              <div class="feature__img">
-                <img
-                  src="/images/icon-brand-recognition.svg"
-                  alt="brand recognition icon"
-                  class="feature-icon"
-                />
-              </div>
 
-              <h3 class="feature__title">Brand Recognition</h3>
-              <p class="feature__description">
-                hhbbfh hhdhhd hhdhhd jdhhdhhd hhdhhdh hhdhhd hdhhd uduudb hhdhhd
-                uuudhhdh dhhdh hhdhhd hhdhhdh hhdhhdh hdh dhhhdhhdh hhdhdhh
-                dhhdhhdhh hhdhhdhh hhdhhdh hhdhhdhhh hhdhdhdh
-              </p>
-            </div>
+            <h3 class="feature__title">Brand Recognition</h3>
+            <p class="feature__description">
+              Improve brand awareness and content discoverability through customizable links, supercharging audience engagement.
+            </p>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+  </main>
+</body>
+
 </html>
