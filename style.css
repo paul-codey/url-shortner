@@ -136,6 +136,12 @@ nav {
   background-color: var(--clr-gray);
 }
 
+.shortening-box {
+  padding: 55rem;
+  background-image: url("/images/bg-boost-desktop.svg");
+  background-size: cover;
+}
+
 .features {
   flex-direction: column;
 }
@@ -152,4 +158,40 @@ nav {
   font-size: 4rem;
   font-weight: 700;
   color: var(--clr-dark-primary-1);
+}
+
+.features__box {
+  gap: 4rem;
+  padding: 2.4rem;
+}
+
+.feature {
+  background-color: #fff;
+  padding: 2.8rem;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  position: relative;
+}
+
+.feature__img {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  background-color: var(--clr-dark-primary-1);
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.feature-icon {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.feature__title {
+  margin-top: 3.8rem;
+  margin-bottom: 1rem;
+}
+
+.feature__description {
+  font-size: 1.7rem;
 }
