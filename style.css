@@ -138,18 +138,16 @@ nav {
   position: relative;
 }
 
-.shortening-section {
-  width: 100%;
-  background-color: red;
-  padding: 3rem;
-}
-
 .shortening-box {
   padding: 6rem;
   background-image: url("/images/bg-shorten-desktop.svg");
   background-size: cover;
   background-position: size;
   background-color: var(--clr-primary-2);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
 }
 
 .shortening-box form {
@@ -200,7 +198,6 @@ nav {
 
 .features__box {
   gap: 4rem;
-  padding: 2.4rem;
   position: relative;
   height: 33rem;
 }
