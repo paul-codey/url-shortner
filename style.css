@@ -36,6 +36,11 @@ body {
   font-size: 1.8rem;
 }
 
+img {
+  max-width: 100%;
+  /* display: block; */
+}
+
 /*//// Reusable ////*/
 
 .flex {
@@ -49,7 +54,7 @@ body {
 }
 
 .container {
-  max-width: 130rem;
+  max-width: 120rem;
   padding: 3.8rem 1.5rem;
 }
 
@@ -107,6 +112,10 @@ nav {
 /*////HERO SECTION ////*/
 
 .hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
   column-gap: 10rem;
   margin-bottom: 15rem;
 }
@@ -127,6 +136,12 @@ nav {
 
 .btn-hero {
   font-size: 2rem;
+}
+
+.hero__text-box {
+}
+
+.hero__image-box {
 }
 
 /*////Feature SECTION ////*/
@@ -162,6 +177,7 @@ nav {
   border-radius: 20px;
   font-size: 2rem;
   color: inherit;
+  border: none;
 }
 
 .shortening-box__input:focus {
