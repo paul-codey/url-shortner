@@ -153,16 +153,23 @@ nav {
   position: relative;
 }
 
+.shortening-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  padding-inline: 1.5rem;
+  transform: translateY(-50%);
+  max-height: 15rem;
+  background-color: red;
+}
+
 .shortening-box {
-  padding: 6rem;
+  padding: 5rem;
   background-image: url("/images/bg-shorten-desktop.svg");
   background-size: cover;
   background-position: size;
   background-color: var(--clr-primary-2);
-  width: 100%;
-  position: absolute;
-  top: 0;
-  transform: translateY(-50%);
+  min-height: 15rem;
 }
 
 .shortening-box form {
@@ -174,7 +181,7 @@ nav {
 
 .shortening-box__input {
   padding: 2.4rem;
-  border-radius: 20px;
+  border-radius: 6px;
   font-size: 2rem;
   color: inherit;
   border: none;
@@ -185,12 +192,60 @@ nav {
   outline: none;
 }
 
+.empty-input {
+  border: 2px solid var(--clr-secondary);
+}
+
+.empty-input::placeholder {
+  color: var(--clr-secondary);
+}
+
+.empty--input {
+  color: var(--clr-secondary);
+  margin-top: 1rem;
+  display: none;
+}
+
+.empty--input.show {
+  display: inline-block;
+}
+
 .shortening-box__btn {
   color: #fff;
   padding: 1.2rem 2.4rem;
   background: var(--clr-primary-1);
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: inherit;
+}
+
+.shortened-links {
+  margin-bottom: 2rem;
+  width: 100%;
+  margin-top: 8rem;
+  font-size: 1.6rem;
+  color: var(--clr-dark-primary-1);
+}
+
+.link {
+  background: #fff;
+  padding: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.converted-link {
+  margin-left: auto;
+  margin-right: 2rem;
+}
+
+.converted-link a {
+  color: var(--clr-primary-1);
+}
+
+.copy-btn {
+  background: var(--clr-primary-1);
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5px;
 }
 
 .features {
