@@ -155,21 +155,25 @@ nav {
 
 .shortening-container {
   width: 100%;
-  position: absolute;
+  position: relative;
   top: 0;
   padding-inline: 1.5rem;
   transform: translateY(-50%);
-  max-height: 15rem;
+  height: 15rem;
   background-color: red;
 }
 
 .shortening-box {
-  padding: 5rem;
+  padding: 4rem;
   background-image: url("/images/bg-shorten-desktop.svg");
   background-size: cover;
   background-position: size;
   background-color: var(--clr-primary-2);
-  min-height: 15rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15rem;
+  width: 100%;
 }
 
 .shortening-box form {
